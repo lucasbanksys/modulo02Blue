@@ -4,11 +4,11 @@ var mudaHumor = document.getElementById('estado');
 btn.onclick = function() {
 
     if(btn.value == 'first') {
-        mudaHumor.src = '/images/gokufeliz.jpg';
+        mudaHumor.src = 'https://raw.githubusercontent.com/lucasbanksys/modulo02Blue/main/Projetos/Projeto01-jogoDoHumor/images/gokufeliz.jpg';
         btn.value = 'sec';
     
     } else if (btn.value == 'sec') {
-        mudaHumor.src = '/images/gokutriste.jpg';
+        mudaHumor.src = 'https://raw.githubusercontent.com/lucasbanksys/modulo02Blue/main/Projetos/Projeto01-jogoDoHumor/images/gokutriste.jpg';
         btn.value = 'first'
     }    
 }
