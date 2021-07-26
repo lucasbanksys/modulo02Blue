@@ -1,0 +1,56 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#ff8a00,#fff000);
+    padding: 5px 0 10px 0;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 255, 0);
+    padding: 5px 0 10px 0;
+    border-radius: 5px;
+    width: 300px;
+}
+
+form h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.btn_01, .btn_02, .btn_03 {
+    margin: 2px;
+}

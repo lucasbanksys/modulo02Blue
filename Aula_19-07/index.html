@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Alert em JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Lucas Soares">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section class="container0">
+        <form action="/signup" method="post"><h3>Faça seu pedido: </h3>
+            <p>
+                <label>Nome completo</label>
+                <input type="text" name="nome"></input>
+            </p>
+            <p>
+                <label>Endereço</label>
+                <input type="text" name="endereco"></input>
+            </p>
+            <p>
+                <label>Email</label>
+                <input type="email" name="email" required></input>
+            </p>
+            <p>
+                <label>Forma de pagamento: </label>
+                <select>
+                    <option>Dinheiro</option>
+                    <option>Cartão</option>
+                </select>
+            </p>
+        </form>
+    </section>
+    <section class="container1">
+        <h3>Opções do menu:</h3>
+        <div class="btn_01">
+            <button id="btn_01" value="first" onclick="">Hambúrguer</button>
+        </div>
+        <div class="btn_02">
+            <button id="btn_02" value="sec" onclick="">Cachorro quente</button>
+        </div>
+        <div class="btn_03">
+            <button id="btn_03" value="third" onclick="">Pastel</button>
+            <script type="text/javascript" src="script.js"></script>
+        </div><br>
+        <div class="btn_submit">
+            <button id="btn_submit" value="submit" onclick="">Enviar</button>
+            <script type="text/javascript" src="script.js"></script>
+        </div>
+    </section>
+</body>
+</html>

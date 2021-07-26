@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&family=Zen+Loop&display=swap');
+body {
+    background-size: 1400px;
+    font-family: Uchen;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(to right,#ff8a00,#da1b60);
+    border-radius: 15px;
+    width: 100vh;
+    padding: 10px;
+    margin: auto;
+}
+
+#minhafoto {
+    border-radius: 9999px;
+    margin: 30px;
+    border: solid 1px #1e1f26;
+}
+
+.sobreMim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+    font-family: Uchen;
+    font-size: 15px;
+    color: black;
+    line-height: 1px;
+}
+
+.quemSouEu {
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    line-height: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.formulario {
+background-color: white;
+padding: 10px;
+display: flex;
+flex-direction: column;
+}

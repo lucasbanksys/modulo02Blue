@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <title>Testando</title>
+</head>
+<body> 
+    <header class="titulo">
+        <h1>{{nomelista}}</h1>
+        <form action="/nova" method="POST" class="formulario">
+            <label for="item">Nova tarefa:</label><br>
+            <input type="text" name="item" id="item">
+            <button type="submit">Adicionar</button>
+        </form>
+    </header>
+    <div>
+        <ul>
+            {%for item in itens %}
+                <li> {{item}} </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
